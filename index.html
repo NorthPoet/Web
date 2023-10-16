@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入主题样式 -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 引入字体样式 -->
+    <link rel="stylesheet" href="./font/fontawesome/css/fontawesome-all.min.css">
+    <!-- 引入Bootstrop  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Bootstrop 设计引导 -->
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <!-- 引入视频样式 -->
+    <link rel="stylesheet" href="./css/DPlayer.min.css">
+    <title>捞月亮的小北</title>
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 100%;
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 导航栏 -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+
+            <!-- 商标 -->
+            <a class="navbar-brand waves-effect" href="#">
+                <img src="./img/avatar.jpg" title="TexAI">
+            </a>
+
+            <!-- 小屏导航支持 -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- 导航链接 -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- left  -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">主页
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/time.html" target="_blank">时间档案</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">咨询信息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/login.html" target="_blank">登陆</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- 导航栏 -->
+
+    <!--轮播区 -->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <!--轮播指示点-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        </ol>
+        <!--/end-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--第一个页面展示的内容-->
+            <div class="carousel-item active">
+                <div class="view">
+
+                    <!--视频源-->
+                    <!-- muted 控制视频声音 -->
+                    <img class="img-test" src="./img/7.png" alt="">
+
+                    <!-- <video id="ca-video-f" class="video-intro" autoplay loop muted> -->
+                        <!-- <source src="/video/one.mp4" type="video/mp4" /> -->
+                        <!-- <source src="./img/top/1.png"> -->
+                        <!-- <img src="./img/top/1.png" alt=""> -->
+                    <!-- </video> -->
+
+                    <!-- 遮罩层-->
+                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                        <!-- Content -->
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">
+                                <!-- <strong>图像识别API全面开放</strong> -->
+                                <strong style="font-family: 楷体;">画江湖之不良人</strong>
+                            </h1>
+
+                            <p>
+                                <!-- <strong>目前市场识别率最高,费用最低的图像识别API</strong> -->
+                                <strong>一天是不良人</strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+
+                                <strong>一辈子都是</strong>
+                            </p>
+
+                        </div>
+                        <!-- Content -->
+                    </div>
+                    <!-- 遮罩层-->
+                </div>
+            </div>
+            <!--/First-->
+
+
+            <!--Second 第二个视频展示的内容-->
+            <div class="carousel-item">
+                <div class="view">
+
+                    <img class="img-test" src="./img/10.png" alt="">
+                    <!--视频源-->
+                    <!-- <video id="ca-video-s" class="video-intro" autoplay loop muted>
+                        <source src="./video/one.mp4" type="video/mp4" />
+                    </video> -->
+
+                    <!-- 遮罩层-->
+                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                        <!-- Content -->
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">
+                                <strong style="font-family: 楷体;">画江湖之不良人</strong>
+                            </h1>
+
+                            <p>
+                                <strong>一天是不良人</strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+                                <strong>一辈子都是</strong>
+                            </p>
+
+                            <!-- <a target="_blank" href="#" class="btn btn-outline-white btn-lg">马上了解
+                                <i class="fa fa-bullhorn  ml-2"></i>
+                            </a> -->
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- 遮罩层-->
+
+                </div>
+            </div>
+            <!--/Second-->
+
+            <!--Third 第三个视频展示的内容-->
+            <div class="carousel-item">
+                <div class="view">
+
+                    <img class="img-test" src="./img/3.png" alt="">
+                    <!--视频源-->
+                    <!--  muted 控制声音-->
+                    <!-- <video id="ca-video-t" class="video-intro" autoplay loop muted>
+                        <source src="video/one.mp4" type="video/mp4" />
+                    </video> -->
+
+                    <!-- 遮罩层-->
+                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                        <!-- Content -->
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">
+                                <strong style="font-family: 楷体;">画江湖之不良人</strong>
+                            </h1>
+
+                            <p>
+                                <strong>一天是不良人</strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+                                <strong>一辈子都是</strong>
+                            </p>
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- 遮罩层-->
+
+                </div>
+            </div>
+            <!--/Third -->
+
+        </div>
+        <!--/.Slides-->
+
+        <!--控件-->
+        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.控件-->
+
+    </div>
+    <!--/.轮播区-->
+
+    <!--主体层-->
+    <main>
+        <div class="container">
+
+            <!--主体信息-->
+            <section class="mt-5 wow fadeIn">
+
+                <!--简介-->
+                <div class="row">
+
+                    <!--left-->
+                    <div class="col-md-6 mb-4">
+
+                        <img src="./img/1.png" class="img-fluid z-depth-1-half" alt="">
+
+                    </div>
+                    <!--left-->
+
+                    <!--right-->
+                    <div class="col-md-6 mb-4">
+
+                        <h3 class="h3 mb-3">画江湖之不良人</h3>
+                        <p style="font-size: 14px;">
+                            故事发生在唐朝末年，时局动荡，无论朝中还是民间都人心惶惶。隶属于官府的神秘组织“不良人”全体失去了踪迹，同样下落不明的，还是价值连城的国库宝藏。传说中，一切的秘密都隐藏在龙泉剑上，得到了龙泉剑的人，便拥有了掌控天下的能力。
+                        </p>
+                        <p style="font-size: 14px;">
+                            乾陵被毁、龙泉宝藏下落不明，前朝皇子李星云欲归隐山林，不良帅决心挟天子以令诸侯，号召江湖各大势力复辟大唐，王道与霸道将在这片权力漩涡中进行终极对垒，贵妃墓、长安城诉说着昔日盛唐的锦绣江山；苗疆巫蛊、湘西赶尸揭开了江湖中不为人知的明争暗斗
+                        </p>
+
+                        <hr>
+
+                        <a href="javascript:" onclick="alert('不良人 - 天北星')"
+                            class="btn blue-gradient btn-md btn-rounded">详细介绍</a>
+                        <a target="_blank" href="#" class="btn aqua-gradient btn-md btn-rounded">动漫官网</a>
+
+                    </div>
+                    <!--right-->
+
+                </div>
+                <!--简介-->
+
+            </section>
+            <!--主体信息-->
+
+            <hr class="my-5">
+
+            <!--合作-->
+            <section>
+
+                <h3 class="h3 text-center mb-5">合作共赢</h3>
+
+                <div class="row wow fadeIn">
+
+                    <!--文字说明-->
+                    <div class="col-lg-6 col-md-12 px-4">
+
+                        <!--First-->
+                        <div class="row">
+                            <div class="col-1 mr-3">
+                                <i class="fa fa-code fa-2x indigo-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">底层技术代码公开</h5>
+                                <p class="grey-text">与许多著名开源组织达成长期的合作，代码完全开源在Github,一切为了促进AI技术的发展</p>
+                            </div>
+                        </div>
+                        <!--/First-->
+
+                        <div style="height:30px"></div>
+
+                        <!--Second-->
+                        <div class="row">
+                            <div class="col-1 mr-3">
+                                <i class="fa fa-group fa-2x blue-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">商业伙伴丰富</h5>
+                                <p class="grey-text">我们更国内的腾讯、百度、阿里等公司和国外的Google、Microsoft、Facebook等公司均达成了一定商业技术合作
+                                </p>
+                            </div>
+                        </div>
+                        <!--/Second-->
+
+                        <div style="height:30px"></div>
+
+                        <!--Third-->
+                        <div class="row">
+                            <div class="col-1 mr-3">
+                                <i class="fa fa-institution fa-2x cyan-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">积极参与前沿会议</h5>
+                                <p class="grey-text">TexAI研究机构TexLab近几年发布的有关机器学习、深度学习论文时常在国际交流会议中被提及,同时TexLab也参与了很多技术演讲
+                                </p>
+                            </div>
+                        </div>
+                        <!--/Third-->
+
+                    </div>
+                    <!--/文字说明-->
+
+                    <!--视频宣传-->
+                    <div class="col-lg-6 col-md-12">
+
+                        <p style="font-family: 楷体; " class="h5 text-center mb-4">画江湖之不良人</p>
+                        <div>
+                            <img style="width: 600px; height: 300px;" src="./img/4.png" alt="">
+                        </div>
+                        <div id="dplayer"></div>
+                    </div>
+                    <!--/视频宣传-->
+
+                </div>
+
+            </section>
+            <!--合作-->
+
+            <hr class="my-5">
+
+            <!--产品介绍-->
+            <section>
+                <div class="row">
+                    <!--First col-->
+                    <div class="col-md-4">
+                        <section>
+                            <div class="card card-cascade wider mb-4">
+
+                                <!-- 卡片图片 -->
+                                <div class="view view-cascade overlay">
+                                    <img class="card-img-top" src="./img/6.png" alt="Card image cap">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <!-- 卡片内容 -->
+                                <div class="card-body card-body-cascade text-center">
+
+                                    <!-- 标题 -->
+                                    <h4 class="card-title"><strong>李星云简介</strong></h4>
+                                    <!-- 副标题 -->
+                                    <h5 class="blue-text pb-2"><strong>The latest point of view</strong></h5>
+                                    <!-- 文本 -->
+                                    <p class="card-text">李星云一生角色有很多，皇子-乞丐-学徒-天子-不良帅，李星云自己说过：所有靠近他的都没有好结果。所以称为不良帅后给子的天罡位时天暗星。</p>
+
+                                    <a class="btn-floating btn-sm blue-gradient"><i class="fa fa-angle-right"></i></a>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+                        <!--Section: Live preview-->
+                    </div>
+                    <!--Second col-->
+                    <div class="col-md-4">
+                        <section>
+                            <div class="card card-cascade wider mb-4">
+
+                                <!-- 卡片图片 -->
+                                <div class="view view-cascade overlay">
+                                    <img class="card-img-top" src="./img/10.png" alt="Card image cap">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <!-- 卡片内容 -->
+                                <div class="card-body card-body-cascade text-center">
+
+                                    <!-- 标题 -->
+                                    <h4 class="card-title"><strong>不良帅介绍</strong></h4>
+                                    <!-- 副标题 -->
+                                    <h5 class="blue-text pb-2"><strong>Frontiers of science</strong></h5>
+                                    <!-- 文本 -->
+                                    <p class="card-text">袁天罡由于精通周易八卦，使他能够由现象入本质地深究其中的奥秘。袁天罡又因为对风水学、天文学、玄学也很精通，使他能纵观全局地把握世界的变化。</p>
+
+                                    <a class="btn-floating btn-sm aqua-gradient"><i class="fa fa-angle-right"></i></a>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+                        <!--Section: Live preview-->
+                    </div>
+                    <!--Third col-->
+                    <div class="col-md-4">
+                        <section>
+
+                            <div class="card card-cascade wider mb-4">
+
+                                <!-- 卡片图片 -->
+                                <div class="view view-cascade overlay">
+                                    <img class="card-img-top" src="./img/9.png" alt="Card image cap">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <!-- 卡片内容 -->
+                                <div class="card-body card-body-cascade text-center">
+
+                                    <!-- 标题 -->
+                                    <h4 class="card-title"><strong>张子凡介绍</strong></h4>
+                                    <!-- 副标题 -->
+                                    <h5 class="blue-text pb-2"><strong>Observation of industry</strong></h5>
+                                    <!-- 文本 -->
+                                    <p class="card-text">张子凡作为主角中必不可少的一员，他冷静擅断，考虑事情先人一步，可算是主角团中的智谋之士，同时也对陆林轩爱护有加，但是一旦沾酒就仿佛变了一个人。</p>
+
+                                    <a class="btn-floating btn-sm purple-gradient"><i class="fa fa-angle-right"></i></a>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+                        <!--Section: Live preview-->
+                    </div>
+                </div>
+            </section>
+            <!--产品介绍-->
+        </div>
+    </main>
+    <!--主体层-->
+
+    <!--Footer-->
+    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+        <!--快速链接层-->
+        <div class="pt-4">
+            <a class="btn btn-outline-white" href="webs/product.html" target="_blank" role="button">产品方案
+                <i class="fa fa-cloud ml-2"></i>
+            </a>
+            <a class="btn btn-outline-white" href="webs/blog.html" target="_blank" role="button">博客资讯
+                <i class="fa fa-newspaper-o ml-2"></i>
+            </a>
+        </div>
+        <!--/.end-->
+
+        <hr class="my-4">
+
+        <!--社交图标层  -->
+        <div class="pb-4">
+            <a href="#" target="_blank">
+                <i class="fa fa-weibo mr-3"></i>
+            </a>
+
+            <a href="#" target="_blank">
+                <i class="fa fa-tencent-weibo mr-3"></i>
+            </a>
+
+            <a href="#" target="_blank">
+                <i class="fa fa-weixin mr-3"></i>
+            </a>
+
+            <a href="#" target="_blank">
+                <i class="fa fa-renren mr-3"></i>
+            </a>
+
+            <a href="#" target="_blank">
+                <i class="fa fa-qq mr-3"></i>
+            </a>
+
+            <a href="#" target="_blank">
+                <i class="fa fa-github mr-3"></i>
+            </a>
+
+        </div>
+        <!-- 社交图标 -->
+
+        <!--版权申明-->
+        <div class="footer-copyright py-3">
+            © 2018 Copyright:
+            <a href="#" target="_blank">susmote.com </a>
+            版权所有 ICP证:<a href="#" target="_blank">湘ICP备18002006号</a>
+
+        </div>
+        <!--/.版权申明-->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./js/mdb.min.js"></script>
+    <!-- Dplayer core JavaScript -->
+    <script type="text/javascript" src="./js/DPlayer.min.js"></script>
+
+</body>
+
+</html>

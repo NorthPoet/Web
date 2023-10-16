@@ -1,0 +1,124 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+/* !
+ * 本代码版权归susmote.com所有,未经许可，不可商用
+ * Github Repo https://github.com/susmote/TexAi
+ * Author : susmote
+ */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* 导航栏动画 */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* texai logo */
+.navbar .navbar-brand img {
+    height: 35px;
+}
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* 手机导航栏颜色 */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer 背景颜色 */
+.page-footer {
+  background-color: #1C2331; }
+
+/*导航栏背景色*/
+.bg-bdark{
+    background: rgb(28, 35, 49) !important;;
+}
+
+/*蓝色背景色*/
+.bg-blue{
+    background-color: #257eeb;
+}
+
+/*布局*/
+.mt-6{
+    margin-top: 4.5rem !important;
+}
+
+/*链接样式*/
+.link-blue{
+    color: #000;
+}
+.link-blue:hover{
+    color: #001ae0;
+}
+
+.gradient-custom {
+    background: #3a7bd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#3a6073), to(#3a7bd5));
+    background: -webkit-linear-gradient(left, #3a6073, #3a7bd5);
+    background: -o-linear-gradient(left, #3a6073, #3a7bd5);
+    background: linear-gradient(to right, #3a6073, #3a7bd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.card-comments img {
+    width: 4rem; }
+
+.lady-lips-gradient {
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+.sunny-morning-gradient {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.rainy-ashville-gradient {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.morpheus-den-gradient {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.amy-crisp-gradient {
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.tempting-azure-gradient {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.dusty-grass-gradient {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.night-fade-gradient {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-test {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
